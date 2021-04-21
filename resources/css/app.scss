@@ -1,0 +1,14 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+$fa-font-path:        "../fonts/fontawesome-free";
+//@import '~@fortawesome/fontawesome-free/webfonts/fa-regular.woff2'
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import './home.scss';
+@import '~alertifyjs/build/css/themes/default.css';
+@import '~alertifyjs/build/css/alertify.css';
